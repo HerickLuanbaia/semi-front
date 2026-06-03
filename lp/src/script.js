@@ -4,3 +4,11 @@ function navTo(id){
         block:'start'
     })
 }
+
+function enviar(){
+    const nome = document.getElementById('nome').value
+    const assunto = document.getElementById('assunto')
+    const mensagem = `Gostaria de entrar em contato!\n\nNome: &{nome} \nAssunto: ${assunto}`
+    const msg = encodeURIComponent(mensagem)
+    window.open(`https://wa.me/*********?text=${msg}`)
+}

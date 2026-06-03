@@ -113,6 +113,104 @@ main section:nth-child(even){
     box-shadow: 0px 0px 50px rgb(78, 78, 78);
 
 }
+#s5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+}
+
+.formulario{
+    background-color: rgb(124, 0, 0);
+    color: rgb(0, 0, 143);
+    box-shadow: 0px 3px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.formulario label{
+    width: 100%;
+    margin-bottom: -10px;
+}
+
+.formulario input{
+    padding: 10px;
+    border: none;
+    background: transparent;
+    color: white;
+    border-bottom: 2px solid rgb(67, 159, 235);
+    width: 100%;
+}
+.formulario input:focus{
+    outline:none;
+    color: brown;
+    border-bottom: 20px;
+}
+textarea{
+    max-width: 250px;
+  min-width: 250px;
+  min-height: 150px;
+  max-height: 150px;
+  padding: 10px;
+  border: none;
+  border-radius: 2px solid white;
+  background: transparent;
+  color: white;
+}
+button{
+  border: none;
+  border-radius: 5px;
+  border: 2px solid white;
+  padding: 10px;
+  background: transparent;
+  color: white;
+  transition: all 200ms linear;
+  width: 100%;
+}
+
+button:hover{
+  background: white;
+  color: #090909;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+}
+
+.card{
+  background-color: cornflowerblue;
+  color: white;
+  font-size: 20px;
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px #090909;
+  
+}
+
+.card img{
+  width: 100%;
+  height: auto;
+}
+
+.textCard{
+  padding: 20px;
+}
+
+.s3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
 footer{
     display: flex;
     align-items: center;
